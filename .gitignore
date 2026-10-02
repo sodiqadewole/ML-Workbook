@@ -23,3 +23,6 @@ rad.json
 TestResults.xml
 
 /myvenv/
+/data/
+/*/data/
+/*/*logs
