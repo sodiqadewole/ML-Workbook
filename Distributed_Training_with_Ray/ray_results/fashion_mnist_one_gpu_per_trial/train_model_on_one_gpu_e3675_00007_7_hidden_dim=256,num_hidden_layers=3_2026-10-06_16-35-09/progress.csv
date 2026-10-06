@@ -1,0 +1,2 @@
+epoch,training_loss,validation_loss,validation_accuracy,timestamp,checkpoint_dir_name,done,training_iteration,trial_id,date,time_this_iter_s,time_total_s,pid,hostname,node_ip,time_since_restore,iterations_since_restore
+1,0.8149036452484131,0.5235122699737549,0.8146,1791329736,,True,1,e3675_00007,2026-10-06_16-35-36,13.726715803146362,13.726715803146362,1108935,monster-Alienware-x17-R2,10.0.0.18,13.726715803146362,1

@@ -1,0 +1,20 @@
+Failure # 1 (occurred at 2026-10-06_16-04-57)
+[36mray::ImplicitFunc.train()[39m (pid=1085691, ip=10.0.0.18, actor_id=93e405c56ef12dd7b24a9b6301000000, repr=train_model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/monster/Desktop/codes/ML-Workbook/myvenv/lib/python3.12/site-packages/ray/tune/trainable/trainable.py", line 329, in train
+    raise skipped from exception_cause(skipped)
+  File "/home/monster/Desktop/codes/ML-Workbook/myvenv/lib/python3.12/site-packages/ray/air/_internal/util.py", line 98, in run
+    self._ret = self._target(*self._args, **self._kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/monster/Desktop/codes/ML-Workbook/myvenv/lib/python3.12/site-packages/ray/tune/trainable/function_trainable.py", line 44, in <lambda>
+    training_func=lambda: self._trainable_func(self.config),
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/monster/Desktop/codes/ML-Workbook/myvenv/lib/python3.12/site-packages/ray/tune/trainable/function_trainable.py", line 249, in _trainable_func
+    output = fn()
+             ^^^^
+  File "/tmp/ipykernel_1071930/83256727.py", line 66, in train_model
+  File "/home/monster/Desktop/codes/ML-Workbook/myvenv/lib/python3.12/site-packages/ray/train/v2/_internal/util.py", line 286, in _wrapped_fn
+    raise DeprecationWarning(
+DeprecationWarning: `ray.train.report` is deprecated when running in a function passed to Ray Tune. Please use the equivalent `ray.tune` API instead. See this issue for more context: https://github.com/ray-project/ray/issues/49454
