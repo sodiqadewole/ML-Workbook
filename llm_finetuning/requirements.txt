@@ -1,0 +1,7 @@
+bitsandbytes 
+peft 
+trl 
+python-dotenv
+torch
+transformers
+flash-attn

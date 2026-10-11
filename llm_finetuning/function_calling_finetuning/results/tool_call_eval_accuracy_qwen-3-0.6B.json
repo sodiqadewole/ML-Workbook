@@ -1,0 +1,9 @@
+{
+  "total_examples": 18000,
+  "tool_call_matches": 16642,
+  "tool_call_accuracy": 0.9245555555555556,
+  "argument_matches": 11974,
+  "argument_accuracy": 0.6652222222222223,
+  "exact_matches": 11893,
+  "exact_match_accuracy": 0.6607222222222222
+}

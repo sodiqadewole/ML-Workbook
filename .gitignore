@@ -27,3 +27,6 @@ TestResults.xml
 /*/data/
 /*/*logs
 /LLM/
+
+/llm_finetuning/model/*
+/llm_finetuning/data/*
