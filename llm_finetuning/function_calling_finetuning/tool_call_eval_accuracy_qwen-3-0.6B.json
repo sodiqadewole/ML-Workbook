@@ -1,0 +1,9 @@
+{
+  "total_examples": 100,
+  "tool_call_matches": 0,
+  "tool_call_accuracy": 0.0,
+  "argument_matches": 0,
+  "argument_accuracy": 0.0,
+  "exact_matches": 0,
+  "exact_match_accuracy": 0.0
+}
