@@ -30,3 +30,4 @@ TestResults.xml
 
 /llm_finetuning/model/*
 /llm_finetuning/data/*
+/llm_finetuning/trl_grpo_math_qwen/*
