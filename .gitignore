@@ -36,3 +36,5 @@ TestResults.xml
 /llm_finetuning/SFT/sft_lora_output
 /llm_finetuning/SFT/sft_output
 /llm_finetuning/trl_grpo_math_qwen/
+/llm_finetuning/DPO/dpo_model/
+/llm_finetuning/DPO/dpo_finetuned_merged/
